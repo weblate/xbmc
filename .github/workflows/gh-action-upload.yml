@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
       - name: Update Weblate
         env:
-          TOKEN: "${{ secrets.WEBLATE_TOKEN }}"
+          TOKEN: "${{ secrets.b75f78e8a8e0380736d3c695fd1c6773fbcd7350 }}"
         run: | 
           curl -X POST \
             -F file=@addons/resource.language.en_gb/resources/strings.po \
