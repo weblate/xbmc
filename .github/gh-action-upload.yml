@@ -24,4 +24,4 @@ jobs:
             -F file=@addons/resource.language.en_gb/resources/strings.po \
             --data method=source \
             -H "Authorization: Token $TOKEN" \
-            http://example.com/api/translations/hello/android/en/file/
+            http://kodi.weblate.cloud/api/translations/kodi-core/kodi-main/en_gb/file/
