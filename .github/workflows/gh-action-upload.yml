@@ -8,6 +8,7 @@ on:
       - master
     paths:
       - "addons/resource.language.en_gb/resources/strings.po"
+      - ".github/workflows/gh-action-upload.yml"
 jobs:
   weblate:
     runs-on: ubuntu-latest
