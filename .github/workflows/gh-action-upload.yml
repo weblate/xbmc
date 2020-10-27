@@ -25,4 +25,4 @@ jobs:
             --form file=@addons/resource.language.en_gb/resources/strings.po \
             --form method=source \
             -H "Authorization: Token $TOKEN" \
-            https://kodi.weblate.cloud/api/translations/kodi-core/kodi-main/en_gb/file/
+            http://kodi.weblate.cloud/api/translations/kodi-core/kodi-main/en_gb/file/
