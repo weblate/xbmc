@@ -8,6 +8,7 @@ on:
       - master
     paths:
       - "addons/resource.language.en_gb/resources/strings.po"
+      - ".github/workflows/gh-action-upload.yml"
 jobs:
   weblate:
     runs-on: ubuntu-latest
@@ -21,7 +22,7 @@ jobs:
           TOKEN: "${{ secrets.WEBLATE_TOKEN }}"
         run: | 
           curl -X POST \
-            -F file=@addons/resource.language.en_gb/resources/strings.po \
-            --data method=source \
+            --form file=@addons/resource.language.en_gb/resources/strings.po \
+            --form method=source \
             -H "Authorization: Token $TOKEN" \
             https://kodi.weblate.cloud/api/translations/kodi-core/kodi-main/en_gb/file/
