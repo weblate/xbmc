@@ -129,7 +129,7 @@ msgstr ""
 #empty strings from id 18 to 19
 
 msgctxt "#20"
-msgid "Test string 2"
+msgid "Test string"
 msgstr ""
 
 msgctxt "#21"
