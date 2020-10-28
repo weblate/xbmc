@@ -126,14 +126,10 @@ msgctxt "#17"
 msgid "Sunday"
 msgstr ""
 
-#empty string with id 18
-
-msgctxt "#19"
-msgid "Test string"
-msgstr ""
+#empty strings from id 18 to 19
 
 msgctxt "#20"
-msgid "Test string 2"
+msgid "Test string"
 msgstr ""
 
 msgctxt "#21"
